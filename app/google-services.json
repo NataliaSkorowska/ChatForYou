@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "166401490326",
+    "firebase_url": "https://chat-e4544-default-rtdb.firebaseio.com",
+    "project_id": "chat-e4544",
+    "storage_bucket": "chat-e4544.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166401490326:android:06199a4a063bdd9cddb1b7",
+        "android_client_info": {
+          "package_name": "com.example.chatforyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166401490326-9fvp0e191n37u9gm6ecmtgo2345qqjl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC13K2YLRl3bhnD00HYteXrmdirX3wfeeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166401490326-9fvp0e191n37u9gm6ecmtgo2345qqjl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
