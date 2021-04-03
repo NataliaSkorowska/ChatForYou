@@ -89,4 +89,33 @@ Chat Model:
 
 ![chat model](./ReadmeIMG/chatmodel.jpg)
 
+Message adapter:
+
+![message adapter](./ReadmeIMG/msgadapter.jpg)
+
+![message adapter](./ReadmeIMG/msgadapter2.jpg)
+
+User adapter:
+
+![user adapter](./ReadmeIMG/useradapter.jpg)
+
+![user adapter](./ReadmeIMG/useradapter2.jpg)
+
+User fragment:
+
+![user fragment](./ReadmeIMG/userfrag1.jpg)
+
+![user fragment](./ReadmeIMG/userfrag2.jpg)
+
+
+Chat fragment:
+
+
+![chat fragment](./ReadmeIMG/chatfrag1.jpg)
+
+![chat fragment](./ReadmeIMG/chatfrag2.jpg)
+
+![chat fragment](./ReadmeIMG/chatfrag3.jpg)
+
+
 
