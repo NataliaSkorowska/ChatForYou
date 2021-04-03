@@ -45,5 +45,7 @@ Widok zakładek po zalogowaniu (zakładka z listą chatów i zakładka z listą 
 
 Widok rozmowy między użytkownikami:
 
+![ekran z chatami](./ReadmeIMG/rozmowa.jpg)
+
 
 
