@@ -25,3 +25,23 @@ Nazwa aplikacji: Chat For You
 Cel aplikacji: Aplikacja "Chat For You" służy do chatowania, wymiany wiadomości ze znajomymi. Użytkownicy zakładając konto podają imię, adres e-mail oraz hasło, a następnie mogą swobodnie poruszać się między dwoma ekranami: pierwszy z listą użytkowników z którymi mogą zacząć rozmowę, a drugi z listą rozpoczętych już wcześniej chatów. Dane użytkownika podane przez niego w momencie rejestracji, oraz wiadomości, które użytkownicy do siebie wysyłają są przechowywane w bazie danych firebase.
 
 ## Interfejs
+
+Ekran początkowy:
+![ekran startowy](./ReadmeIMG/startowy.jpg)
+
+Ekran rejestracji:
+![ekran rejestracji](./ReadmeIMG/rejestracja.jpg)
+
+Ekran logowania:
+![ekran logowania](./ReadmeIMG/logowanie.jpg)
+
+Widok zakładek po zalogowaniu (zakładka z listą chatów i zakładka z listą użytkowników)
+
+![ekran z chatami](./ReadmeIMG/chaty.jpg)
+
+
+Widok rozmowy między użytkownikami:
+
+![ekran z chatami](./ReadmeIMG/rozmowa.jpg)
+
+
