@@ -71,7 +71,7 @@ StartActivity:
 
 ![kod startowy](./ReadmeIMG/Startkod.jpg)
 
-![kod startowy](./ReadmeIMG/Startkod2.jpg)
+![kod startowy](./ReadmeIMG/startkod2.jpg)
 
 MainActivity:
 
@@ -80,5 +80,13 @@ MainActivity:
 ![kod main](./ReadmeIMG/mainkod2.jpg)
 
 ![kod main](./ReadmeIMG/mainkod3.jpg)
+
+User Model:
+
+![user model](./ReadmeIMG/usermodel.jpg)
+
+Chat Model:
+
+![chat model](./ReadmeIMG/chatmodel.jpg)
 
 
