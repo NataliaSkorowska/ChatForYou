@@ -32,11 +32,11 @@ Ekran początkowy:
 
 Ekran rejestracji:
 
-![ekran rejestracji](./ReadmeIMG/rejestracja.jpg)
+![ekran rejestracji](./ReadmeIMG/rejestracja.png)
 
 Ekran logowania:
 
-![ekran logowania](./ReadmeIMG/logowanie.jpg)
+![ekran logowania](./ReadmeIMG/logowanie.png)
 
 Widok zakładek po zalogowaniu (zakładka z listą chatów i zakładka z listą użytkowników)
 
