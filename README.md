@@ -58,6 +58,8 @@ Opis realizacji projektu:
  ![baza](./ReadmeIMG/baza4.jpg)
  
  RegisterActivity:
+ 
+ Konfiguracja mechanizmu rejestracji, podłączenie do elementów interfejsu wcześniej zadeklarowanych zmiennych. Sprawdzenie czy 3 pola (imie, adres email, hasło), które użytkownik musi wypełnić podczas rejestracji zostały uzupełnione poprawnie. Jeśli hasło będzie miało mniej niż 6 znaków, lub nie wszystkie pola zostaną wypełnione użytkownikowi nie uda się zarejestrować i dzięki mechanizmowi toast zostaną wyświetlone komunikaty informujące o przyczynie niepowodzenia.
 
 ![kod rejestracji](./ReadmeIMG/rejestracjakod1.jpg)
 
@@ -65,15 +67,21 @@ Opis realizacji projektu:
 
 LoginActivity:
 
+Konfiguracja mechanizmu logowania, podłączenie do elementów interfejsu wcześniej zadeklarowanych zmiennych. Przy logowaniu należy podać adres email oraz hasło. Jeśli wpisane dane nie zgadzają się z danymi z bazy zostaje wyświetlony stosowny komunikat o tym informujący (toast).
+
 ![kod logowania](./ReadmeIMG/logowaniekod.jpg)
 
 StartActivity:
+
+Zadeklarowanie zmiennych i podłączenie do nich elementów interfejsu. Po kliknięciu buttona "Załóż konto" użytownik zostaje przeniesiony do ekranu umożliwiającego rejestrację (RegisterActivity). Po kliknięciu buttona "Zaloguj się" użytkownik zostaje przeniesiony do ekranu umożliwiającego logowanie (LoginActivity).
 
 ![kod startowy](./ReadmeIMG/Startkod.jpg)
 
 ![kod startowy](./ReadmeIMG/startkod2.jpg)
 
 MainActivity:
+
+Ekran widoczny po zalogowaniu użytkownika do systemu. Do zakładki "Użytkownicy" pobierana zostaje z bazy danych lista zarejestrowanych w tej aplikacji użytkowników. Po kliknięciu w imię danego użytkownika następuje przejście do chatu z nim. Do zakładki "Chaty" pobierana zostaje z bazy danych lista osób, z którymi wcześniej prowadził chat zalogowany użytkownik. Po kliknięciu na imię danego użytkownika otwarty zostaje chat z nim i pobrane zostają poprzednie wiadomości z nim wymienione.
 
 ![kod main](./ReadmeIMG/mainkod1.jpg)
 
@@ -83,15 +91,19 @@ MainActivity:
 
 User Model:
 
+Stworzenie modelu użytkownika wykorzystująceg id oraz imię użytkownika. Wygenerowanie getterów i setterów.
+
 ![user model](./ReadmeIMG/usermodel.jpg)
 
 Chat Model:
+
+Stworzenie modelu chatu między dwoma użytkownikami, który zawiera pola: nadawca, odbiorca oraz treść wiadomości. Wygenerowanie getterów i setterów.
 
 ![chat model](./ReadmeIMG/chatmodel.jpg)
 
 Message adapter:
 
-![message adapter](./ReadmeIMG/msgadapter.jpg)
+![message adapter](./ReadmeIMG/msgadapter1.jpg)
 
 ![message adapter](./ReadmeIMG/msgadapter2.jpg)
 
@@ -110,12 +122,15 @@ User fragment:
 
 Chat fragment:
 
+Widok chatu między dwoma użytkownikami. Pobranie z bazy poprzednich wiadomości jeśli takie wystąpiły. 
 
 ![chat fragment](./ReadmeIMG/chatfrag1.jpg)
 
 ![chat fragment](./ReadmeIMG/chatfrag2.jpg)
 
 ![chat fragment](./ReadmeIMG/chatfrag3.jpg)
+
+
 
 
 
