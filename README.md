@@ -52,10 +52,10 @@ Opis realizacji projektu:
  
  Stworzenie logo aplikacji, a następnie skonfigurowanie bazy danych wraz z mechanizmem uwierzytelnienia:
  
- ![ekran z chatami](./ReadmeIMG/baza1.jpg)
- ![ekran z chatami](./ReadmeIMG/baza2.jpg)
- ![ekran z chatami](./ReadmeIMG/baza3.jpg)
- ![ekran z chatami](./ReadmeIMG/baza4.jpg)
+ ![baza](./ReadmeIMG/baza1.jpg)
+ ![baza](./ReadmeIMG/baza2.jpg)
+ ![baza](./ReadmeIMG/baza3.jpg)
+ ![baza](./ReadmeIMG/baza4.jpg)
  
  RegisterActivity:
 
@@ -67,5 +67,18 @@ LoginActivity:
 
 ![kod logowania](./ReadmeIMG/logowaniekod.jpg)
 
+StartActivity:
+
+![kod startowy](./ReadmeIMG/Startkod.jpg)
+
+![kod startowy](./ReadmeIMG/Startkod2.jpg)
+
+MainActivity:
+
+![kod main](./ReadmeIMG/mainkod1.jpg)
+
+![kod main](./ReadmeIMG/mainkod2.jpg)
+
+![kod main](./ReadmeIMG/mainkod3.jpg)
 
 
