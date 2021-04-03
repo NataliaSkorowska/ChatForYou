@@ -54,6 +54,6 @@ Opis realizacji projektu:
  
  RegisterActivity:
 
-![kod rejestracji](./ReadmeIMG/rejetracjakod1.jpg)
+![kod rejestracji](./ReadmeIMG/rejestracjakod1.jpg)
 
 
