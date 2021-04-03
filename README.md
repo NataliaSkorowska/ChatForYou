@@ -1,4 +1,5 @@
 # ChatForYou
 
 #### Autorzy: 
-#### Nazwa aplikacji: Chat For You
+#### Nazwa aplikacji:
+Chat For You
