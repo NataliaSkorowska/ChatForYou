@@ -27,7 +27,7 @@ Cel aplikacji: Aplikacja "Chat For You" służy do chatowania, wymiany wiadomoś
 ## Interfejs
 
 Ekran początkowy:
-![ekran startowy](./ReadmeIMG/startowy.jpg)
+![ekran startowy](./ReadmeIMG/startowy.png)
 
 Ekran rejestracji:
 ![ekran rejestracji](./ReadmeIMG/rejestracja.jpg)
