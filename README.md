@@ -54,6 +54,9 @@ Opis realizacji projektu:
  
  ![baza](./ReadmeIMG/baza1.jpg)
  ![baza](./ReadmeIMG/baza2.jpg)
+ 
+ Widok danych dotyczących użytkowników oraz wiadomości pobieranych do bazy:
+ 
  ![baza](./ReadmeIMG/baza3.jpg)
  ![baza](./ReadmeIMG/baza4.jpg)
  
@@ -88,6 +91,16 @@ Ekran widoczny po zalogowaniu użytkownika do systemu. Do zakładki "Użytkownic
 ![kod main](./ReadmeIMG/mainkod2.jpg)
 
 ![kod main](./ReadmeIMG/mainkod3.jpg)
+
+ChatActivity:
+
+Konfiguracja mechanizmów odpowiedzialnych za wysyłanie, odczytywanie wiadomości. Zablokowanie możliwości wysłania pustej wiadomości. Przy próbie wysłania pustej wiadomości pojawia się komunikat o błędzie (toast).
+
+![kod chat activity](./ReadmeIMG/chatactivity.jpg)
+
+![kod chat activity](./ReadmeIMG/chatactivity2.jpg)
+
+![kod main](./ReadmeIMG/chatactivity3.jpg)
 
 User Model:
 
