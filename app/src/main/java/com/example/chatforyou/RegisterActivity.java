@@ -52,9 +52,9 @@ public class RegisterActivity extends AppCompatActivity {
 
 
                 if(TextUtils.isEmpty(txt_name) || TextUtils.isEmpty(txt_mail) || TextUtils.isEmpty(txt_pass)){
-                    Toast.makeText(RegisterActivity.this, "All informations are required", Toast.LENGTH_LONG).show();
+                    Toast.makeText(RegisterActivity.this, "Należy wypełnić wszystkie pola", Toast.LENGTH_LONG).show();
                 } else if (txt_pass.length() < 6) {
-                    Toast.makeText(RegisterActivity.this, "Password length has to be longer than 6 chars", Toast.LENGTH_LONG).show();
+                    Toast.makeText(RegisterActivity.this, "Hasło musi zawierać co najmniej 6 znaków", Toast.LENGTH_LONG).show();
                 } else {
                     register(txt_mail,txt_pass, txt_name);
                 }
@@ -89,7 +89,7 @@ public class RegisterActivity extends AppCompatActivity {
                             });
                         }
                         else {
-                            Toast.makeText(RegisterActivity.this, "Wrong authentification data", Toast.LENGTH_LONG).show();
+                            Toast.makeText(RegisterActivity.this, "Podano błędne dane", Toast.LENGTH_LONG).show();
                         }
                     }
                 });
