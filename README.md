@@ -54,6 +54,6 @@ Opis realizacji projektu:
  
  RegisterActivity:
 
-![ekran z chatami](./ReadmeIMG/rejetracjakod1.jpg)
+![kod rejestracji](./ReadmeIMG/rejetracjakod1.jpg)
 
 
