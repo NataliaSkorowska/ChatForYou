@@ -47,5 +47,10 @@ Widok rozmowy między użytkownikami:
 
 ![ekran z chatami](./ReadmeIMG/rozmowa.jpg)
 
+ ## Kod 
+Opis realizacji projektu:
+ 
+ Stworzenie logo aplikacji, a następnie skonfigurowanie bazy danych wraz z mechanizmem uwierzytelnienia:
+
 
 
