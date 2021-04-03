@@ -65,7 +65,7 @@ Opis realizacji projektu:
 
 LoginActivity:
 
-![kod logowania](./ReadmeIMG/logowaniekod.jpg)
+![kod logowania](./ReadmeIMG/logowaniepng.jpg)
 
 
 
