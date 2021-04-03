@@ -56,6 +56,6 @@ Opis realizacji projektu:
 
 ![kod rejestracji](./ReadmeIMG/rejestracjakod1.jpg)
 
-![kod rejestracji](./ReadmeIMG/rejestracjakod2.jpg)
+![kod rejestracji](./ReadmeIMG/rejestracja2kod.jpg)
 
 
