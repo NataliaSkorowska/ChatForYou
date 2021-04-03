@@ -84,7 +84,7 @@ public class ChatActivity extends AppCompatActivity {
                 if(!message.equals("")){
                     sendMessage(firebaseUser.getUid(), userid, message);
                 } else {
-                    Toast.makeText(ChatActivity.this, "Can't send an empty message", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ChatActivity.this, "Nie można wysłać pustej wiadomości", Toast.LENGTH_SHORT).show();
                 }
                 text_send.setText("");
             }
