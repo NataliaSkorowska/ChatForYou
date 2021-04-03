@@ -91,7 +91,7 @@ Ekran widoczny po zalogowaniu użytkownika do systemu. Do zakładki "Użytkownic
 
 User Model:
 
-Stworzenie modelu użytkownika wykorzystująceg id oraz imię użytkownika. Wygenerowanie getterów i setterów.
+Stworzenie modelu użytkownika wykorzystującego id oraz imię użytkownika. Wygenerowanie getterów i setterów.
 
 ![user model](./ReadmeIMG/usermodel.jpg)
 
@@ -102,6 +102,8 @@ Stworzenie modelu chatu między dwoma użytkownikami, który zawiera pola: nadaw
 ![chat model](./ReadmeIMG/chatmodel.jpg)
 
 Message adapter:
+
+Zadeklarowanie zmiennych i podpięcie ich pod elementy interfejsu, które będą stanowiły fragmenty wiadomości wyświetlające się po prawej stronie jako wysłane przez obecnie zalogowanego użytkownika, oraz po lewej jako wiadomości otrzymane od innego użytkownika. Pobranie z bazy danych informacji dotyczących obu użytkowników oraz ewnetualnych wcześniejszych wiadomości.
 
 ![message adapter](./ReadmeIMG/msgadapter1.jpg)
 
@@ -114,6 +116,8 @@ User adapter:
 ![user adapter](./ReadmeIMG/useradapter2.jpg)
 
 User fragment:
+ 
+ Konfiguracja otrzymywania wiadomości wysłanych przez innych użytkowników, wszysto sprawdzane na podstawie id każdego użytkownika pobieranego z bazy.
 
 ![user fragment](./ReadmeIMG/userfrag1.jpg)
 
@@ -122,7 +126,7 @@ User fragment:
 
 Chat fragment:
 
-Widok chatu między dwoma użytkownikami. Pobranie z bazy poprzednich wiadomości jeśli takie wystąpiły. 
+Widok chatu między dwoma użytkownikami. Pobranie z bazy poprzednich wiadomości jeśli takie wystąpiły.
 
 ![chat fragment](./ReadmeIMG/chatfrag1.jpg)
 
