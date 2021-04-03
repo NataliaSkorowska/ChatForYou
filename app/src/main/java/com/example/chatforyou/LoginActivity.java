@@ -41,7 +41,7 @@ public class LoginActivity extends AppCompatActivity {
                 String txt_pass = pass.getText().toString();
 
                 if(TextUtils.isEmpty(txt_mail) || TextUtils.isEmpty(txt_pass)){
-                    Toast.makeText(LoginActivity.this, "Complete all fields", Toast.LENGTH_LONG).show();
+                    Toast.makeText(LoginActivity.this, "Proszę wypełnić wszystkie pola", Toast.LENGTH_LONG).show();
                 } else {
                     mAuth.signInWithEmailAndPassword(txt_mail,txt_pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
@@ -52,7 +52,7 @@ public class LoginActivity extends AppCompatActivity {
                                 startActivity(intent);
                                 finish();
                             } else {
-                                Toast.makeText(LoginActivity.this, "Authentification failed, try again", Toast.LENGTH_LONG).show();
+                                Toast.makeText(LoginActivity.this, "Niepowodzenie, spróbuj jeszcze raz", Toast.LENGTH_LONG).show();
                             }
                         }
                     });
