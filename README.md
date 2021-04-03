@@ -51,6 +51,9 @@ Widok rozmowy między użytkownikami:
 Opis realizacji projektu:
  
  Stworzenie logo aplikacji, a następnie skonfigurowanie bazy danych wraz z mechanizmem uwierzytelnienia:
+ 
+ RegisterActivity:
 
+![ekran z chatami](./ReadmeIMG/rejetracjakod.jpg)
 
 
