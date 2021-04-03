@@ -61,8 +61,8 @@ public class MainActivity extends AppCompatActivity {
         ViewPager viewPager = findViewById(R.id.viewPager);
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
 
-        viewPagerAdapter.addFramgent(new ChatsFragment(),"Chats");
-        viewPagerAdapter.addFramgent(new UsersFragment(), "Users");
+        viewPagerAdapter.addFramgent(new ChatsFragment(),"Chaty");
+        viewPagerAdapter.addFramgent(new UsersFragment(), "Użytkownicy");
 
         viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
